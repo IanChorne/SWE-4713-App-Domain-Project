@@ -1,3 +1,6 @@
+//This is the api that is the main bridge between the front and back ends.
+//It is currently populated with test data and an app.listen function that won't be necessary in the final product.
+
 const express = require('express')
 const app = express()
 

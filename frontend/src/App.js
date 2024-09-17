@@ -11,7 +11,7 @@ useEffect(() => {
     response => response.json()
   ).then(
     data => {
-      setBackendData(data.users)
+      setBackendData(data)
     }
   )
 }, [])
